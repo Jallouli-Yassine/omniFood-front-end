@@ -307,6 +307,55 @@ h4 {
     color: #555;
 }
 
+/* CUSTOMERS */
+
+.customers {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url(../img/back-customers.jpg);
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.customers h2 {
+    color: rgb(235, 235, 235);
+}
+
+.customers p {
+    color: #fff;
+    font-size: 100%;
+    line-height: 145%;
+}
+
+.custBox {
+    position: relative;
+}
+
+.custText:before {
+    padding-top: 50px;
+    content: "\201C";
+    font-size: 600%;
+    display: block;
+}
+
+.customers ion-icon {
+    font-size: 220%;
+    margin-bottom: 1%;
+    color: #fff;
+}
+
+.customers img {
+    float: left;
+    margin-top: 50px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.custNames {
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
 /*
  color: #e67e22;
 */

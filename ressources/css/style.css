@@ -17,6 +17,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 /* ------------ REUSABLE CONTENT ------------  */
@@ -26,9 +27,21 @@ html {
     margin: 0 auto;
 }
 
+.clearfix {
+    zoom: 1
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*HEADINGS*/
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     margin-top: 0;
     margin-bottom: 30px;
     font-weight: 300;
@@ -70,10 +83,6 @@ h2:after {
 
 section {
     padding: 80px 0;
-}
-
-.steps-section {
-    padding-top: 600px;
 }
 
 .long-text {
@@ -258,6 +267,46 @@ header {
     margin: 30px 10px;
 }
 
+/* CITIES SECTION */
+
+.cities h2::after {
+    content: "";
+    width: 100px;
+    background-color: #e67e22;
+    height: 2px;
+    display: block;
+}
+
+.pic {
+    width: 100%;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.citieBox ion-icon {
+    float: left;
+    margin: 0 5%;
+    color: #e67e22;
+}
+
+.citieBox div {
+    margin-bottom: 5%;
+}
+
+.citieBox a {
+    padding-bottom: 50px;
+    text-decoration: none;
+    color: #e67e22;
+    transition: color 0.2s;
+}
+
+.citieBox a:hover, .citieBox a:active {
+    color: #555;
+}
+
 /*
- #e67e22
+ color: #e67e22;
 */

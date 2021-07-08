@@ -132,6 +132,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../img/hero.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -315,6 +316,7 @@ h4 {
     width: 100%;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .customers h2 {
@@ -354,6 +356,77 @@ h4 {
 .custNames {
     padding-top: 70px;
     padding-left: 100px;
+}
+
+/* SIGN UP SECTION */
+
+.signUpSection {
+    background-color: #f4f4f4;
+}
+
+.cart {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.cart ul {
+    list-style: none;
+}
+
+.cartHeader {
+    background-color: #eeeeee;
+    height: 130px;
+    padding: 2%;
+}
+
+.cartHeader p {
+    font-size: 100%;
+    line-height: 145%;
+}
+
+.cartHeader h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.cartHeader span {
+    font-size: 210%;
+    line-height: 145%;
+}
+
+.price {
+    color: #e67e22;
+}
+
+.cartINfo {
+    padding: 5%;
+    height: 160px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.cartINfo ul {
+    padding-top: 10px;
+}
+
+.cartINfo ul li {
+    margin-bottom: 3%;
+}
+
+.cartINfo ion-icon {
+    color: #e67e22;
+    margin-right: 3%;
+}
+
+.btnCart {
+    height: 70px;
+    text-align: center;
+}
+
+.btnCart a {
+    margin-top: 12.5px;
 }
 
 /*

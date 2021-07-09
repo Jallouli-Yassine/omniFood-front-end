@@ -93,7 +93,7 @@ section {
 
 /*BUTTONS*/
 
-.btn:link, .btn:visited {
+.btn:link, .btn:visited, input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -102,7 +102,7 @@ section {
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.btn-full:link, .btn-full:visited {
+.btn-full:link, .btn-full:visited, input[type=submit] {
     border: #e67e22 solid 1px;
     margin-right: 20px;
     background-color: #e67e22;
@@ -114,7 +114,7 @@ section {
     color: #e67e22;
 }
 
-.btn-full:hover, .btn-full:active {
+.btn-full:hover, .btn-full:active, input[type=submit]:hover {
     border: #a15512 solid 1px;
     background-color: #a15512;
 }
@@ -366,10 +366,11 @@ h4 {
 
 .cart {
     background-color: #fff;
-    border-radius: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     width: 80%;
     margin-left: 10%;
-    box-shadow: 0 2px 2px #efefef;
+    box-shadow: 10px 10px 10px #e6e6e6;
 }
 
 .cart ul {
@@ -432,3 +433,25 @@ h4 {
 /*
  color: #e67e22;
 */
+
+/* contact form */
+
+.contact-form {
+    width: 60%;
+    margin-left: 20%;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 3px solid #ccc;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline: none;
+}

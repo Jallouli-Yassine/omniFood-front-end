@@ -455,3 +455,92 @@ input[type=checkbox] {
 *:focus {
     outline: none;
 }
+
+/*  FOOTER */
+
+footer {
+    background-color: rgb(47, 47, 47);
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.footer-social-media {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li, .footer-social-media li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-nav li:first-child {
+    margin-left: 0;
+}
+
+.footer-social-media li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a, .footer-social-media li a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-nav li a:hover, .footer-social-media li a:hover {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-social-media li a {
+    font-size: 130%;
+}
+
+footer p {
+    color: #888;
+    padding: 2%;
+    line-height: 145%;
+    font-size: 100%;
+    font-weight: 300;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.copy {
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    padding: 5px;
+}
+
+.copy p {
+    font-size: 103%;
+    font-weight: 300;
+    word-spacing: 2px;
+    color: rgb(143, 143, 143);
+}
+
+.footer-social-media .facebook, .footer-social-media .twitter, .footer-social-media .instagram, .footer-social-media .mail {
+    transition: color 0.2s;
+}
+
+.footer-social-media .facebook:hover {
+    color: #3b5998;
+}
+
+.footer-social-media .twitter:hover {
+    color: #1da1f2;
+}
+
+.footer-social-media .instagram:hover {
+    color: #c32aa3;
+}
+
+.footer-social-media .mail:hover {
+    color: #db4437;
+}

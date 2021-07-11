@@ -1,0 +1,115 @@
+/*
+    480
+    768
+    1024
+    1200
+*/
+
+@media only screen and (max-width: 1300px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 3%;
+    }
+    .row {
+        padding: 0 3%;
+    }
+}
+
+@media only screen and (max-width: 1123px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 50px 0;
+    }
+    .long-text {
+        width: 80%;
+        margin: 0 0 20px 10%;
+    }
+    .step-box {
+        margin-top: 10px !important;
+        padding-left: 0px !important;
+    }
+    .works-setup {
+        margin-bottom: 30px !important;
+    }
+    .customers ion-icon {
+        width: 5px !important;
+    }
+    .cart {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .cartHeader p {
+        font-size: 90%;
+        line-height: 145%;
+    }
+    .cartHeader h3 {
+        margin: 0;
+        font-weight: 500;
+    }
+    .cartHeader p span {
+        font-size: 200%;
+        line-height: 145%;
+    }
+}
+
+@media only screen and (max-width: 868px) {
+    header {
+        height: 80vh;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .long-text {
+        width: 90%;
+        margin: 0 5% 20px 5%;
+    }
+    h1, h2, h3, h4 {
+        word-spacing: 1px;
+    }
+    h1 {
+        font-size: 220%;
+        letter-spacing: 2px;
+    }
+    h2 {
+        font-size: 180%;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    h3 {
+        font-size: 90%;
+        letter-spacing: 0.5px;
+    }
+    .appStore img {
+        height: 40px;
+        width: auto;
+        margin: 0 5px;
+    }
+    .iphone {
+        width: 55%;
+    }
+    .logo {
+        height: 80px;
+        margin-top: 20px;
+        width: auto;
+        float: left;
+    }
+    .main-nav li a:link, .main-nav li a:visited {
+        font-size: 80%;
+    }
+    .citieBox a {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .madina {
+        width: 100%;
+        background-color: #f4f4f4;
+    }
+    .step-box:first-child {
+        text-align: center;
+        padding-right: 5%;
+    }
+}

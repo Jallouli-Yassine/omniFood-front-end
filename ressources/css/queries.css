@@ -69,16 +69,16 @@
         word-spacing: 1px;
     }
     h1 {
-        font-size: 220%;
+        font-size: 200%;
         letter-spacing: 2px;
     }
     h2 {
-        font-size: 180%;
+        font-size: 160%;
         text-align: center;
         letter-spacing: 2px;
     }
     h3 {
-        font-size: 90%;
+        font-size: 70%;
         letter-spacing: 0.5px;
     }
     .appStore img {
@@ -89,21 +89,31 @@
     .iphone {
         width: 55%;
     }
-    .logo {
-        height: 80px;
-        margin-top: 20px;
-        width: auto;
-        float: left;
-    }
-    .main-nav li a:link, .main-nav li a:visited {
-        font-size: 80%;
-    }
     .citieBox a {
         font-size: 80%;
+    }
+    .main-nav {
+        display: none;
     }
 }
 
 @media only screen and (max-width: 580px) {
+    html {
+        overflow-x: none;
+    }
+    h1 {
+        font-size: 170%;
+        letter-spacing: 2px;
+    }
+    h2 {
+        font-size: 120%;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    h3 {
+        font-size: 70%;
+        letter-spacing: 0.5px;
+    }
     .madina {
         width: 100%;
         background-color: #f4f4f4;
@@ -111,5 +121,80 @@
     .step-box:first-child {
         text-align: center;
         padding-right: 5%;
+    }
+    .long-text {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    #food-delivery h3 {
+        text-align: center;
+    }
+    #food-delivery ion-icon {
+        margin-left: 40%;
+    }
+    .box {
+        padding: 10%;
+    }
+    .iphone {
+        width: 40%;
+    }
+    .step-box {
+        margin: 5% 5%;
+    }
+    .meals-photo img:hover {
+        opacity: 1;
+        transform: scale(1.06);
+    }
+    .custBox {
+        padding: 8%;
+    }
+    .customers h2 {
+        margin: 0;
+    }
+    .customers img {
+        margin-top: 20px;
+    }
+    .custNames {
+        padding-top: 40px;
+        padding-left: 100px;
+    }
+    .cart {
+        width: 80%;
+        margin: 20px 10%;
+    }
+    .madina {
+        width: 80% !important;
+        margin: 10px 10% !important;
+    }
+    .cartHeader {
+        background-color: #eeeeee;
+        height: 130px;
+        padding: 8%;
+    }
+    .cartHeader p {
+        font-size: 100%;
+        line-height: 145%;
+    }
+    .cartHeader h3 {
+        margin: 0;
+        font-weight: 500;
+    }
+    .cartHeader span {
+        font-size: 210%;
+        line-height: 145%;
+    }
+    .contact-form {
+        width: 80%;
+        margin-left: 5%;
+    }
+    .contact-form .row {
+        margin: 10px 0;
+    }
+    .footer-nav, .footer-social-media {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-social-media {
+        margin-top: 20px;
     }
 }
